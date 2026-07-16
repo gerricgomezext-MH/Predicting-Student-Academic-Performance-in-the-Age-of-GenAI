@@ -1,0 +1,66 @@
+{
+  "champion_classifier": "SVM (RBF)",
+  "champion_regressor": "Ridge",
+  "classification_evaluation": {
+    "classification_report": {
+      "High": {
+        "precision": 0.6807228915662651,
+        "recall": 0.7483443708609272,
+        "f1-score": 0.7129337539432177,
+        "support": 151.0
+      },
+      "Low": {
+        "precision": 0.7988929889298892,
+        "recall": 0.8523622047244095,
+        "f1-score": 0.8247619047619048,
+        "support": 508.0
+      },
+      "Medium": {
+        "precision": 0.8733183856502242,
+        "recall": 0.8278427205100957,
+        "f1-score": 0.8499727223131478,
+        "support": 941.0
+      },
+      "accuracy": 0.828125,
+      "macro avg": {
+        "precision": 0.7843114220487929,
+        "recall": 0.8095164320318108,
+        "f1-score": 0.7958894603394234,
+        "support": 1600.0
+      },
+      "weighted avg": {
+        "precision": 0.8315121224373442,
+        "recall": 0.828125,
+        "f1-score": 0.8290352351007161,
+        "support": 1600.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        113,
+        0,
+        38
+      ],
+      [
+        0,
+        433,
+        75
+      ],
+      [
+        53,
+        109,
+        779
+      ]
+    ],
+    "class_names": [
+      "High",
+      "Low",
+      "Medium"
+    ]
+  },
+  "regression_evaluation": {
+    "r2": 0.8707307150932873,
+    "rmse": 4.979298507544771,
+    "mae": 3.9742680182554615
+  }
+}
