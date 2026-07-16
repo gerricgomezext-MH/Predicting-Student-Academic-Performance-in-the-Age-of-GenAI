@@ -1,0 +1,6 @@
+Model,R2,RMSE,MAE,Train Time (s)
+Ridge,0.8707,4.9793,3.9743,0.01
+Gradient Boosting Regressor,0.8632,5.1231,4.082,5.63
+Random Forest Regressor,0.8569,5.2385,4.1991,8.04
+Lasso,0.8488,5.3844,4.2998,0.01
+ElasticNet,0.7994,6.2032,4.9521,0.01
