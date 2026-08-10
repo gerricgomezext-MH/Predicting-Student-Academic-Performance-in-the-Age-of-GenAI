@@ -1,11 +1,10 @@
 # Predicting Student Academic Performance in the Age of GenAI
 
-This project develops and rigorously evaluates a machine learning solution to
-predict student academic performance, specifically addressing the impact of
-Generative AI (GenAI) tool usage. Using a dataset of 8,000 student records, it
-builds a classifier that flags at-risk students (`Low` / `Medium` / `High`
-performance) and a regressor that predicts continuous `final_score`, following
-a leakage-safe, fully reproducible pipeline.
+This capstone project addresses a pressing real-world question facing modern educational institutions: Does the adoption of Generative AI tools (ChatGPT, Gemini, Copilot, Claude,etc.) meaningfully improve student outcomes, or does excessive dependency undermine genuine learning? Using a dataset of 8,000 student records with 26 features, we will build a supervised multiclass classification model to predict student performance tiers (Low / Medium / High), supplemented by a regression model on final_score to quantify the marginal effect of AI dependency on continuous academic output.
+
+NOTE: This project utilized the Academic Outcomes & AI Dependency Analysis Dataset, a publicly available dataset published on Kaggle by Abdullah Rashid. The dataset contains 8,000 student records that include demographic information, academic performance, AI usage patterns, AI dependency scores, and learning behavior variables. It is licensed under the Creative Commons Attribution 4.0 (CC BY 4.0) license, allowing reuse with proper attribution.
+
+DATA SOURCE: Rashid, A. (n.d.). Academic Outcomes & AI Dependency Analysis Dataset. Kaggle. https://www.kaggle.com/datasets/abdullahmeo/academic-outcomes-and-ai-dependency-analysis-dataset
 
 See [`reports/final_report.md`](reports/final_report.md) for the full
 write-up of the business problem, methodology, results, and recommendations.
