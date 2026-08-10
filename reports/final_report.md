@@ -12,7 +12,8 @@ tools — ChatGPT, Gemini, Copilot, Claude, and similar assistants — measurabl
 improves student academic outcomes, or whether excessive dependency on these
 tools undermines genuine learning. This study utilized the Academic Outcomes & AI
 Dependency Analysis Dataset, a publicly available dataset published on Kaggle by Abdullah
-Rashid (DATA SOURCE: Rashid, A. (n.d.). Academic Outcomes & AI Dependency Analysis Dataset. Kaggle. https://www.kaggle.com/datasets/abdullahmeo/academic-outcomes-and-ai-dependency-analysis-dataset)
+Rashid (DATA SOURCE: Rashid, A. (n.d.). Academic Outcomes & AI Dependency Analysis Dataset. Kaggle. https://www.kaggle.com/datasets/abdullahmeo/academic-outcomes-and-ai-dependency-analysis-dataset).
+
 The dataset contains 8,000 student records that include demographic information,
 academic performance, AI usage patterns, AI dependency scores, and learning behavior
 variables. It is licensed under the Creative Commons Attribution 4.0 (CC BY 4.0) license,
