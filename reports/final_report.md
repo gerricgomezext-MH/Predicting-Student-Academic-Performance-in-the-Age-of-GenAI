@@ -10,9 +10,14 @@
 This capstone project investigates whether the adoption of Generative AI (GenAI)
 tools — ChatGPT, Gemini, Copilot, Claude, and similar assistants — measurably
 improves student academic outcomes, or whether excessive dependency on these
-tools undermines genuine learning. Using a dataset of 8,000 student records that
-combines academic performance, lifestyle, and AI-usage behavior, we built and
-rigorously evaluated a supervised machine learning solution that:
+tools undermines genuine learning. This study utilized the Academic Outcomes & AI
+Dependency Analysis Dataset, a publicly available dataset published on Kaggle by Abdullah
+Rashid. The dataset contains 8,000 student records that include demographic information,
+academic performance, AI usage patterns, AI dependency scores, and learning behavior
+variables. It is licensed under the Creative Commons Attribution 4.0 (CC BY 4.0) license,
+allowing reuse with proper attribution<img width="2382" height="25" alt="image" src="https://github.com/user-attachments/assets/d114a783-6ad2-48d3-80f6-a08d70c916af" />
+DATA SOURCE: Rashid, A. (n.d.). Academic Outcomes & AI Dependency Analysis Dataset. Kaggle. https://www.kaggle.com/datasets/abdullahmeo/academic-outcomes-and-ai-dependency-analysis-dataset  <img width="1003" height="24" alt="image" src="https://github.com/user-attachments/assets/488c21e5-0e5f-4efa-b7b2-becf0cba34d8" />
+Using this dataset of 8,000 student records that combines academic performance, lifestyle, and AI-usage behavior, we built and rigorously evaluated a supervised machine learning solution that:
 
 1. **Classifies** each student into a performance category (`Low`, `Medium`,
    `High`) — the primary business deliverable, enabling early intervention for
